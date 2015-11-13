@@ -18,6 +18,7 @@
   "homepage": "https://github.com/hdngr/treehouse-express-basics",
   "dependencies": {
     "express": "^4.13.0",
+    "greenhat": "0.0.2",
     "jade": "^1.11.0"
   }
 }
