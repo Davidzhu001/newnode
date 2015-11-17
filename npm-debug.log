@@ -1,0 +1,256 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express-generator',
+1 verbose cli   '-g' ]
+2 info using npm@3.3.9
+3 info using node@v4.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData express-generator
+8 silly fetchNamedPackageData express-generator
+9 silly mapToRegistry name express-generator
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+13 verbose get https://registry.npmjs.org/express-generator not expired, no request
+14 silly install normalizeTree
+15 silly loadCurrentTree Finishing
+16 silly loadIdealTree Starting
+17 silly install loadIdealTree
+18 silly cloneCurrentTree Starting
+19 silly install cloneCurrentTreeToIdealTree
+20 silly cloneCurrentTree Finishing
+21 silly loadShrinkwrap Starting
+22 silly install loadShrinkwrap
+23 silly loadShrinkwrap Finishing
+24 silly loadAllDepsIntoIdealTree Starting
+25 silly install loadAllDepsIntoIdealTree
+26 silly resolveWithNewModule express-generator@4.13.1 checking installable status
+27 silly cache add args [ 'express-generator', null ]
+28 verbose cache add spec express-generator
+29 silly cache add parsed spec Result {
+29 silly cache add   raw: 'express-generator',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'express-generator',
+29 silly cache add   rawSpec: '',
+29 silly cache add   spec: '*',
+29 silly cache add   type: 'range' }
+30 silly addNamed express-generator@*
+31 verbose addNamed "*" is a valid semver range for express-generator
+32 silly addNameRange { name: 'express-generator', range: '*', hasData: false }
+33 silly mapToRegistry name express-generator
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/express-generator
+37 verbose addNameRange registry:https://registry.npmjs.org/express-generator not in flight; fetching
+38 verbose get https://registry.npmjs.org/express-generator not expired, no request
+39 silly addNameRange number 2 { name: 'express-generator', range: '*', hasData: true }
+40 silly addNameRange versions [ 'express-generator',
+40 silly addNameRange   [ '1.0.0',
+40 silly addNameRange     '3.0.0',
+40 silly addNameRange     '4.0.0',
+40 silly addNameRange     '4.2.0',
+40 silly addNameRange     '4.8.0',
+40 silly addNameRange     '4.9.0',
+40 silly addNameRange     '4.10.0',
+40 silly addNameRange     '4.11.0',
+40 silly addNameRange     '4.11.1',
+40 silly addNameRange     '4.11.2',
+40 silly addNameRange     '4.12.0',
+40 silly addNameRange     '4.12.1',
+40 silly addNameRange     '4.12.4',
+40 silly addNameRange     '4.13.0',
+40 silly addNameRange     '4.13.1' ] ]
+41 silly addNamed express-generator@4.13.1
+42 verbose addNamed "4.13.1" is a plain semver version for express-generator
+43 silly cache afterAdd express-generator@4.13.1
+44 verbose afterAdd /Users/weichengzhu/.npm/express-generator/4.13.1/package/package.json not in flight; writing
+45 verbose afterAdd /Users/weichengzhu/.npm/express-generator/4.13.1/package/package.json written
+46 silly fetchNamedPackageData commander
+47 silly mapToRegistry name commander
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry uri https://registry.npmjs.org/commander
+51 silly fetchNamedPackageData mkdirp
+52 silly mapToRegistry name mkdirp
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+56 silly fetchNamedPackageData sorted-object
+57 silly mapToRegistry name sorted-object
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+61 verbose get https://registry.npmjs.org/commander not expired, no request
+62 silly resolveWithNewModule commander@2.7.1 checking installable status
+63 silly cache add args [ 'commander@2.7.1', null ]
+64 verbose cache add spec commander@2.7.1
+65 silly cache add parsed spec Result {
+65 silly cache add   raw: 'commander@2.7.1',
+65 silly cache add   scope: null,
+65 silly cache add   name: 'commander',
+65 silly cache add   rawSpec: '2.7.1',
+65 silly cache add   spec: '2.7.1',
+65 silly cache add   type: 'version' }
+66 silly addNamed commander@2.7.1
+67 verbose addNamed "2.7.1" is a plain semver version for commander
+68 silly mapToRegistry name commander
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/commander
+72 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+73 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+74 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+75 silly cache add args [ 'mkdirp@0.5.1', null ]
+76 verbose cache add spec mkdirp@0.5.1
+77 silly cache add parsed spec Result {
+77 silly cache add   raw: 'mkdirp@0.5.1',
+77 silly cache add   scope: null,
+77 silly cache add   name: 'mkdirp',
+77 silly cache add   rawSpec: '0.5.1',
+77 silly cache add   spec: '0.5.1',
+77 silly cache add   type: 'version' }
+78 silly addNamed mkdirp@0.5.1
+79 verbose addNamed "0.5.1" is a plain semver version for mkdirp
+80 silly mapToRegistry name mkdirp
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+84 verbose addNameVersion registry:https://registry.npmjs.org/mkdirp not in flight; fetching
+85 verbose get https://registry.npmjs.org/sorted-object not expired, no request
+86 silly resolveWithNewModule sorted-object@1.0.0 checking installable status
+87 silly cache add args [ 'sorted-object@1.0.0', null ]
+88 verbose cache add spec sorted-object@1.0.0
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: 'sorted-object@1.0.0',
+89 silly cache add   scope: null,
+89 silly cache add   name: 'sorted-object',
+89 silly cache add   rawSpec: '1.0.0',
+89 silly cache add   spec: '1.0.0',
+89 silly cache add   type: 'version' }
+90 silly addNamed sorted-object@1.0.0
+91 verbose addNamed "1.0.0" is a plain semver version for sorted-object
+92 silly mapToRegistry name sorted-object
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/sorted-object
+96 verbose addNameVersion registry:https://registry.npmjs.org/sorted-object not in flight; fetching
+97 verbose get https://registry.npmjs.org/commander not expired, no request
+98 verbose get https://registry.npmjs.org/mkdirp not expired, no request
+99 verbose get https://registry.npmjs.org/sorted-object not expired, no request
+100 silly cache afterAdd commander@2.7.1
+101 verbose afterAdd /Users/weichengzhu/.npm/commander/2.7.1/package/package.json not in flight; writing
+102 silly cache afterAdd mkdirp@0.5.1
+103 verbose afterAdd /Users/weichengzhu/.npm/mkdirp/0.5.1/package/package.json not in flight; writing
+104 silly cache afterAdd sorted-object@1.0.0
+105 verbose afterAdd /Users/weichengzhu/.npm/sorted-object/1.0.0/package/package.json not in flight; writing
+106 verbose afterAdd /Users/weichengzhu/.npm/commander/2.7.1/package/package.json written
+107 verbose afterAdd /Users/weichengzhu/.npm/mkdirp/0.5.1/package/package.json written
+108 verbose afterAdd /Users/weichengzhu/.npm/sorted-object/1.0.0/package/package.json written
+109 silly fetchNamedPackageData graceful-readlink
+110 silly mapToRegistry name graceful-readlink
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry uri https://registry.npmjs.org/graceful-readlink
+114 verbose get https://registry.npmjs.org/graceful-readlink not expired, no request
+115 silly resolveWithNewModule graceful-readlink@1.0.1 checking installable status
+116 silly cache add args [ 'graceful-readlink@>= 1.0.0', null ]
+117 verbose cache add spec graceful-readlink@>= 1.0.0
+118 silly cache add parsed spec Result {
+118 silly cache add   raw: 'graceful-readlink@>= 1.0.0',
+118 silly cache add   scope: null,
+118 silly cache add   name: 'graceful-readlink',
+118 silly cache add   rawSpec: '>= 1.0.0',
+118 silly cache add   spec: '>=1.0.0',
+118 silly cache add   type: 'range' }
+119 silly addNamed graceful-readlink@>=1.0.0
+120 verbose addNamed ">=1.0.0" is a valid semver range for graceful-readlink
+121 silly addNameRange { name: 'graceful-readlink', range: '>=1.0.0', hasData: false }
+122 silly mapToRegistry name graceful-readlink
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/graceful-readlink
+126 verbose addNameRange registry:https://registry.npmjs.org/graceful-readlink not in flight; fetching
+127 verbose get https://registry.npmjs.org/graceful-readlink not expired, no request
+128 silly addNameRange number 2 { name: 'graceful-readlink', range: '>=1.0.0', hasData: true }
+129 silly addNameRange versions [ 'graceful-readlink', [ '1.0.0', '1.0.1' ] ]
+130 silly addNamed graceful-readlink@1.0.1
+131 verbose addNamed "1.0.1" is a plain semver version for graceful-readlink
+132 silly cache afterAdd graceful-readlink@1.0.1
+133 verbose afterAdd /Users/weichengzhu/.npm/graceful-readlink/1.0.1/package/package.json not in flight; writing
+134 verbose afterAdd /Users/weichengzhu/.npm/graceful-readlink/1.0.1/package/package.json written
+135 silly fetchNamedPackageData minimist
+136 silly mapToRegistry name minimist
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry uri https://registry.npmjs.org/minimist
+140 verbose get https://registry.npmjs.org/minimist not expired, no request
+141 silly resolveWithNewModule minimist@0.0.8 checking installable status
+142 silly cache add args [ 'minimist@0.0.8', null ]
+143 verbose cache add spec minimist@0.0.8
+144 silly cache add parsed spec Result {
+144 silly cache add   raw: 'minimist@0.0.8',
+144 silly cache add   scope: null,
+144 silly cache add   name: 'minimist',
+144 silly cache add   rawSpec: '0.0.8',
+144 silly cache add   spec: '0.0.8',
+144 silly cache add   type: 'version' }
+145 silly addNamed minimist@0.0.8
+146 verbose addNamed "0.0.8" is a plain semver version for minimist
+147 silly mapToRegistry name minimist
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry uri https://registry.npmjs.org/minimist
+151 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+152 verbose get https://registry.npmjs.org/minimist not expired, no request
+153 silly cache afterAdd minimist@0.0.8
+154 verbose afterAdd /Users/weichengzhu/.npm/minimist/0.0.8/package/package.json not in flight; writing
+155 verbose afterAdd /Users/weichengzhu/.npm/minimist/0.0.8/package/package.json written
+156 silly loadAllDepsIntoIdealTree Finishing
+157 silly idealTree:prePrune lib
+157 silly idealTree:prePrune └─┬ express-generator@4.13.1
+157 silly idealTree:prePrune   ├── commander@2.7.1
+157 silly idealTree:prePrune   ├── graceful-readlink@1.0.1
+157 silly idealTree:prePrune   ├── minimist@0.0.8
+157 silly idealTree:prePrune   ├── mkdirp@0.5.1
+157 silly idealTree:prePrune   └── sorted-object@1.0.0
+158 silly loadIdealTree Finishing
+159 silly currentTree lib
+160 silly idealTree lib
+160 silly idealTree └─┬ express-generator@4.13.1
+160 silly idealTree   ├── commander@2.7.1
+160 silly idealTree   ├── graceful-readlink@1.0.1
+160 silly idealTree   ├── minimist@0.0.8
+160 silly idealTree   ├── mkdirp@0.5.1
+160 silly idealTree   └── sorted-object@1.0.0
+161 silly generateActionsToTake Starting
+162 silly install generateActionsToTake
+163 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+164 silly rollbackFailedOptional Starting
+165 silly rollbackFailedOptional Finishing
+166 silly runTopLevelLifecycles Starting
+167 silly runTopLevelLifecycles Finishing
+168 silly install printInstalled
+169 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+169 verbose stack     at Error (native)
+170 verbose cwd /Users/weichengzhu/dev/node/newnode
+171 error Darwin 15.2.0
+172 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "express-generator" "-g"
+173 error node v4.2.1
+174 error npm  v3.3.9
+175 error path /usr/local/lib/node_modules
+176 error code EACCES
+177 error errno -13
+178 error syscall access
+179 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+179 error     at Error (native)
+179 error  { [Error: EACCES: permission denied, access '/usr/local/lib/node_modules']
+179 error   errno: -13,
+179 error   code: 'EACCES',
+179 error   syscall: 'access',
+179 error   path: '/usr/local/lib/node_modules' }
+180 error Please try running this command again as root/Administrator.
+181 verbose exit [ -13, true ]
